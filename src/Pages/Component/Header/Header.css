@@ -1,0 +1,38 @@
+.vertical-line {
+  width: 1px;
+  height: 80%;
+  background-color: black;
+  margin-left: 35px;
+}
+
+h3{
+  text-align: center;
+}
+
+.custom-modal-body {
+  width: auto;
+  height: auto;
+}
+
+.LinkHeader{
+  color: gray;
+}
+
+.LinkHeader > .shopping-icon .favorite-icon:hover {
+  color: red;
+}
+
+.logo-image{
+  width: 20%;
+}
+
+.Navbar{
+  background: #515154;
+}
+.header{
+  background: #515154;
+}
+
+
+
+

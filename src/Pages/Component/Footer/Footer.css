@@ -1,0 +1,57 @@
+li a {
+    color: #86868b;
+  text-decoration: none;
+
+  }
+li{
+  list-style-type: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #86868b;
+}
+
+.footer  {
+  background-color: #1d1d1f;
+  color: #fefefe;
+  padding-top: 10px;
+}
+
+.footerH{
+  border-bottom: 1px solid #515154;
+}
+
+.footerB {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.logo {
+  float: right;
+  text-align: right;
+  margin-right: auto;
+  width: 30%;
+}
+
+.IconMXH>.icon{
+  width: 10%;
+}
+
+.footer-social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-social-icon {
+  list-style-type: none;
+  margin-right: 5%; /* Giảm khoảng cách ngang giữa các biểu tượng */
+}
+
+.footer-list{
+  text-align: left;
+  padding-left: 35%;
+}

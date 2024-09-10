@@ -1,0 +1,138 @@
+.body-home {
+  background: #f5f5f7;
+}
+
+.menu {
+  background: #515154;
+}
+
+.menu .home {
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+  margin: 0px 40px 0px 110px;
+  transition: scale 0.3s ease, color 0.3s ease;
+}
+
+.menu .home:hover {
+  scale: 1.3;
+  color: #fff;
+}
+
+.menu .brand-link {
+  display: flex;
+  align-items: center;
+}
+
+.menu .brand-link .brand-img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: scale 0.3s ease;
+}
+
+.menu .brand-link .brand-img:hover {
+  scale: 1.3;
+}
+
+
+.slideshows .slideshow-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 18%;
+  margin-top: 20px;
+}
+
+.slideshows .slideshow-container .slideshow-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.price-filter {
+  margin-top: 20px;
+}
+
+.price-filter .select-filter {
+  width: 160px;
+  float: right;
+}
+
+
+.phonemodels {
+  margin-top: 20px;
+}
+
+.phonemodels .phone-card {
+  width: 12rem;
+  margin-bottom: 26px;
+  border: none;
+  border-radius: 10px;
+  transition: box-shadow 0.5s ease, scale 0.5s ease;
+}
+
+.phonemodels .phone-card:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  scale: 1.1;
+}
+
+.phonemodels .card-img-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100%;
+  margin-top: 20px;
+}
+
+.phonemodels .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.phonemodels .card-title {
+  height: 50px;
+  font-size: 18px;
+}
+
+.phonemodels .card-text .old-price{
+  font-size: 15px;
+  text-decoration-line: line-through;
+}
+
+.phonemodels .card-text .promational-price{
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+.phonemodels .favorite-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  background-color: #ccc;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+  position: absolute;
+  bottom: 42%;
+  left: 15%;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.phonemodels .favorite-button-active {
+  color: red;
+}
+
+.phonemodels .favorite-button:hover {
+  color: red;
+}
